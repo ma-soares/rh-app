@@ -44,8 +44,8 @@
                 "height": 100
               },
               "position": {
-                "x": 346,
-                "y": 181
+                "x": 340,
+                "y": 220
               },
               "angle": 0,
               "id": "822cea3e-993d-4f82-b916-65375922e752",
@@ -79,7 +79,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "1 Web Request",
+                      "text": "Web Request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -104,8 +104,8 @@
                 "height": 80
               },
               "position": {
-                "x": 518,
-                "y": 378
+                "x": 490,
+                "y": 450
               },
               "angle": 0,
               "id": "a02fdeae-4c2d-4c38-96ad-f7638e635217",
@@ -132,13 +132,14 @@
                 "height": 100
               },
               "position": {
-                "x": 663,
-                "y": 149
+                "x": 660,
+                "y": 260
               },
               "angle": 0,
               "id": "faba3bd5-23b1-4d6f-a739-5852db96b48f",
               "z": 6,
               "hasOpenThreats": false,
+              "outOfScope": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -186,45 +187,28 @@
               }
             },
             {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "faba3bd5-23b1-4d6f-a739-5852db96b48f"
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
               },
-              "target": {
-                "id": "a02fdeae-4c2d-4c38-96ad-f7638e635217"
+              "position": {
+                "x": 630,
+                "y": 30
               },
-              "vertices": [
-                {
-                  "x": 1850,
-                  "y": 1436
-                },
-                {
-                  "x": 1643,
-                  "y": 1291
-                }
-              ],
-              "id": "3ef5041a-f2d7-4ce4-a9f4-740a0941f4e2",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "Queries",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
+              "angle": 0,
+              "id": "5ba66be3-f751-40a8-ad73-0e38c883569a",
               "z": 8,
               "hasOpenThreats": false,
               "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                "text": {
+                  "text": "Windows Client"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -232,28 +216,24 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "a02fdeae-4c2d-4c38-96ad-f7638e635217"
+                "id": "5ba66be3-f751-40a8-ad73-0e38c883569a"
               },
               "target": {
                 "id": "faba3bd5-23b1-4d6f-a739-5852db96b48f"
               },
               "vertices": [
                 {
-                  "x": 1867,
-                  "y": 1387
-                },
-                {
-                  "x": 1793,
-                  "y": 1282
+                  "x": 700,
+                  "y": 170
                 }
               ],
-              "id": "e6064258-0197-42b5-bd0f-ff6c2d1b4920",
+              "id": "7630dc7e-3c45-4fca-b29f-d79f350bbdda",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 7",
+                      "text": "Client Request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -274,8 +254,8 @@
           ]
         },
         "size": {
-          "height": 1445,
-          "width": 1901
+          "height": 1670,
+          "width": 2051.76171875
         }
       }
     ]
